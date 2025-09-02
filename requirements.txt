@@ -1,0 +1,32 @@
+# Core Airflow and providers
+apache-airflow==2.7.0
+apache-airflow-providers-mongo==3.2.0
+apache-airflow-providers-snowflake==5.1.0
+apache-airflow-providers-google>=10.1.0
+
+# Data processing libraries
+pandas==2.0.3
+pyarrow==12.0.1
+numpy>=1.21.0
+
+# Text processing
+text-unidecode>=1.3
+
+# Date/time handling
+pendulum>=2.1.0
+
+# Database connections
+pymongo==4.5.0
+snowflake-connector-python==3.2.0
+
+# AWS/Cloud storage (if using S3)
+boto3==1.28.0
+
+# Utilities
+python-dotenv==1.0.0
+
+# Optional: Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0

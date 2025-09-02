@@ -1,0 +1,21 @@
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables (secrets)
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Virtual environment (if you use one locally)
+venv/
+.venv/
